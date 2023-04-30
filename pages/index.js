@@ -557,8 +557,8 @@ export default function Home() {
           </div>
           </div>
           <div className="flex flex-col gap-4 xs:flex-row xs:gap-3">
-            <a href="https://github.com/mattelim/text-gpt-p5-app" target="_blank" className="xs:order-last"><img src="github-mark.svg" alt="github" className="w-8 aspect-square opacity-30 hover:opacity-100 xs:w-6"/></a>
-            <a href="https://www.buymeacoffee.com/mattelim" target="_blank"><img src="bmc-logo.svg" alt="buy me a coffee" className="w-8 aspect-square opacity-30 hover:opacity-100 xs:w-6"/></a>
+            <a href="https://github.com/msgimanila/text-gpt-p5-app" target="_blank" className="xs:order-last"><img src="github-mark.svg" alt="github" className="w-8 aspect-square opacity-30 hover:opacity-100 xs:w-6"/></a>
+            <a href="https://mgarcia3000.click/" target="_blank"><img src="bmc-logo.svg" alt="buy me a coffee" className="w-8 aspect-square opacity-30 hover:opacity-100 xs:w-6"/></a>
           </div>
         </header>
         <TextInput key="textinput-01" textInput={textInput} onChange={textInputChange} onSubmit={textInputSubmit} waiting={waiting} selectVal={selVal} selectChange={textSelectChange} egArray={egArray}/>
